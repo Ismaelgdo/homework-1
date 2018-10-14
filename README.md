@@ -177,6 +177,7 @@ What is XML?
 A markup language designed for storing and transporting data
 
 What is XHTML?
+A combination of HTML and XML
 
 
 ### 15. HTML
