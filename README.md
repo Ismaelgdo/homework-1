@@ -37,7 +37,7 @@ Then click the pencil icon to edit it:
 
 ![Edit button](./images/edit.png)
 
-Next, edit this line to add your name: **Your Name**
+Next, edit this line to add your name: **Ismael Garrido**
 
 Click the "Preview changes" tab to see your changes.
 
@@ -94,39 +94,45 @@ Please edit this file to add your answers to the following questions.
 
 #### 6. In the following URL: `http://localhost:4000/admin?`
 
-* What is the scheme/protocol?
-* What is the host?
-* What is the port number?
-* What is the path?
-* What are the query parameters?
-* What is the fragment?
+* What is the scheme/protocol?  http
+* What is the host?             localhost
+* What is the port number?      4000
+* What is the path?             admin
+* What are the query parameters? none
+* What is the fragment?         none
 
 #### 7. In the following URL: `http://www.lehman.edu/academics/mathematics-computer-science/index.php`
 
-* What is the scheme/protocol?
-* What is the host?
-* What is the port number?
-* What is the path?
-* What are the query parameters?
-* What is the fragment?
+* What is the scheme/protocol? http
+* What is the host?           www.lehman.edu
+* What is the port number?    80
+* What is the path?           /academics/mathematics-computer-science/index.php
+* What are the query parameters? none
+* What is the fragment?         none
 
 #### 8. In the following URL: `https://en.wikipedia.org/wiki/Greek_alphabet#Glyph_variants`
 
-* What is the scheme/protocol?
-* What is the host?
-* What is the port number?
-* What is the path?
-* What are the query parameters?
-* What is the fragment?
+* What is the scheme/protocol?  https
+* What is the host?             en.wikipedia.org
+* What is the port number?      443
+* What is the path?             /wiki/Greek_alphabet
+* What are the query parameters? none
+* What is the fragment?         Glyph_variants
 
 
 ### 9. HTTPS
 
 What does the S stand for in HTTPS?
 
+sercure
+
 Why is HTTPS better than HTTP?
 
+It is safer to use because HTTPS is basically the http protocol working in conjunction with Secure Sockets Layer (SSL) to transport
+data safely.
+
 Should all web pages use HTTPS?
+Yes. It is a good practice to do
 
 
 ## Webpages
@@ -139,29 +145,36 @@ Pleaes ensure you have read chapters 1–9 (except 7) in the [HTML & CSS book](h
 
 ### 10. What is a webpage?
 
-*Your answer here.*
+A webapage is a document, usualy written in HTML, that is viewable on the web
 
 
 ### 11. Webpage I like
 
 What's one webpage you like? Why?
 
+From the ones I actully use I like 
+https://www.hollisterco.com/shop/us
+I simply like the atmosphere of this page. All the pictures and the colors give you a nice vibe while shopping. 
+
 
 ### 12. Website I don’t like
 
-What's one webpage you like? Why?
+https://www.fitnyc.edu/ 
+I don't hate it but you would expect a more captivating and artistic website from an university that is dedicated to teach art, design and fashion.
 
 
 ### 13. Resources
 
-Where is a good place to look for information about HTML tags?
+Mozilla developer and w3schools 
 
 
 ### 14. HTML Versions
 
 Which version of HTML are we covering in this class? What is it's DOCTYPE tag?
+We are using HTML 5, and a DOCTYPOE tag is a declaration of the type of document we are going to write so browsers know how to interpret it.
 
 What is XML?
+A markup language designed for storing and transporting data
 
 What is XHTML?
 
@@ -170,60 +183,82 @@ What is XHTML?
 
 Are web pages ASCII (plain text) files, or compiled (binary) files like an executable program?
 
+-Plain text
+
 Are HTML files interpreted or executed?
 
+-Interpreted
 
 ### 16. Browser versioning
 
 Which versions of Microsoft Internet Explorer support the `<nav>` tag?
+
+I think from 8 and above
 
 
 ### 17. HTML Validity
 
 What is one tool that can tell you if you have written valid HTML?
 
+https://validator.w3.org/
+
 
 ### 18. Accessibility
 
 What does "Accessibility" mean in the context of web development?
+- It means to have a website that can be accessed by all kinds of people
 
 What types of people does accessibility concern?
+- People with physical impairment 
 
 What is one tool you can use to verify the accessibility of your websites?
-
+https://www.w3.org/WAI/ER/tools/
 
 ### 19. head / body
 
 What is the `<head>` tag for?
+- To specify things that don't appear in the body of the page, like the tab title, character set and language specifications.
 
 What is the `<body>` tag for?
+- For writting to body of your page
 
 
 ### 20. Head…
 
 What's the difference between `<head>`, `<header>`, and heading tags?
+The head is for specifying things that don't appear in the body of the page. The header is for containing things that usually appear first on the top of the page, like the tittle, and the heading tags are for setting the different types of headings or tittles.
 
 
 ### 21. Tables
 
 What are all the tags associated with [HTML tables](https://developer.mozilla.org/en-US/docs/Learn/HTML/Tables) (e.g. `<table>`, `<tr>`, etc.)?
+<table> </table>
+<thead> </thead>
+<tbody> </tbody>
+<tfoot> </tfoot>
+<tr> </tr>
+<th> </th>
+<td> </td>
 
 
 ### 22. Non-closing tags
 
 Which tags don't have a closing pair (e.g. `<br>`)?
+- <img>, <br>, <bh>, <link>, <meta>
 
 
 ### 23. Links
 
 How do you make a link open in a new window?
-
+- By adding the attribute target=”_blank”
 
 ### 24. IFRAME
 
 What is an IFRAME?
+Is a tag that embed html document into another html document
 
 What are IFRAMEs commonly used for?
+- To put a page inside of another page, link a twitter feed, for example
 
 
 ## Writing Code
@@ -254,7 +289,7 @@ Please modify the [bugs.html](bugs.html) file in this repository to fix the erro
 
 ### 28. Pace check
 
-Class is going… too slow / just right / too fast.
+too slow
 
 
 ### 29. Jobs
