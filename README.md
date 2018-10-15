@@ -292,11 +292,14 @@ Please modify the [bugs.html](bugs.html) file in this repository to fix the erro
 
 ### 28. Pace check
 
-too slow
+Because of all the breaks the pace has felt too slow but the class itself is going at a good pace
 
 
 ### 29. Jobs
 
 Add a link to one web development job based in NYC:
 
+https://www.startwire.com/jobs/new-york-ny/front-end-developer-51405167?source=seo&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic
+
 What do you still need to learn to meet the requirements?
+More experience with JavaScript and more years of experience
