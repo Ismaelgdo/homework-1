@@ -56,6 +56,8 @@ Please sign up for LinkedIn and share your LinkedIn profile URL here. If you do 
 
 [My LinkedIn Profile](https://www.linkedin.com/in/.../)
 
+https://www.linkedin.com/in/ismael-garrido-rod/
+
 
 ### 5. Setup GitHub Pages
 
